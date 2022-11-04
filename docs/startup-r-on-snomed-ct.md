@@ -97,6 +97,8 @@ Accordingly, do
 ## How to flatten the nested dataframe of encounters
 
 ``` r
+install.packages("tidyr")
+library(tidyr)
 sct6<-unnest(sct4, cols= c('encounters'))
 ```  
 
